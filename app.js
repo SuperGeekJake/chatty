@@ -1,19 +1,3 @@
-/**
- * Webserver
- * Image Upload
- * Private Rooms
- * Live Updating
- * Material Design
- * Avatars
- * Profiles
- * Password Protected Rooms
- * Notifications
- * Typing Status
- * Message Editing/Deletion
- * Chat Logs
- * Maximum Ocupancy of 2
- */
-
 var app = require('express')();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
